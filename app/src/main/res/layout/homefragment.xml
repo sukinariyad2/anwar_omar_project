@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_hom1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/desc1">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_hom2"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_hom3"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kdm2"
+            android:id="@+id/img2"
+            android:layout_marginTop="20sp"
+            android:scaleType="fitXY">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kdm3"
+
+            android:layout_marginTop="20sp"
+            android:scaleType="fitXY">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kad3"
+
+            android:layout_marginTop="20sp"
+            android:scaleType="fitXY">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoraa2"
+
+            android:layout_marginTop="20sp"
+            android:scaleType="fitXY">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mthf2"
+
+            android:layout_marginTop="20sp"
+            android:scaleType="fitXY">
+
+        </ImageView>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20sp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kdm4"
+
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY">
+                </ImageView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kad2"
+
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY">
+                </ImageView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kdm2"
+
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY">
+                </ImageView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mthf6"
+
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY">
+                </ImageView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
